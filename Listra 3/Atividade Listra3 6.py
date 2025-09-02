@@ -1,7 +1,7 @@
 Caprovado = 0 
 Creprovados = 0
 Mmaior = 0
-Mmenor = 10
+Mmenor = 99
 for I in range(10):
     nota1 = float(input("Digite a nota 1 :"))
     nota2 = float(input("Digite a nota 2 :"))
@@ -28,4 +28,5 @@ for I in range(10):
 print("A menor média é ",Mmenor,)
 print("A maior média é ",Mmaior,)
 print("São ",Caprovado," alunos Aprovados")
+
 print("São ",Creprovados," alunos Reprovados")
